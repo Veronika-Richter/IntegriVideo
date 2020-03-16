@@ -12,4 +12,7 @@ public abstract class BasePage {
         wait = new WebDriverWait(this.driver, 20);
     }
 
+    public abstract BasePage isPageOpened();
+    public abstract BasePage openPage();
+
 }
