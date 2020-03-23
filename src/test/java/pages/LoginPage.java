@@ -12,7 +12,7 @@ public class LoginPage extends BasePage{
     WebElement emailField;
     @FindBy( name = "password")
     WebElement passwordField;
-    @FindBy(css = ".iv-icon iv-icon-enter-right")
+    @FindBy(css = ".btn-primary")
     WebElement loginButton;
 
 
@@ -23,7 +23,7 @@ public class LoginPage extends BasePage{
     }
 
     public LoginPage isPageOpened() {
-        wait.until(ExpectedConditions.visibilityOf(loginButton));
+//        wait.until(ExpectedConditions.visibilityOf(loginButton));
         return this;
     }
 

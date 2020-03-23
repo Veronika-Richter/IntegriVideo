@@ -15,7 +15,7 @@ public class ChatPage extends BasePage {
         super(driver);
     }
 
-    public BasePage isPageOpened() {
+    public ChatPage isPageOpened() {
         return null;
     }
 
