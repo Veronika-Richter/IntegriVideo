@@ -7,7 +7,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void login(){
-        User user = new User("knfr@mail.ru", "rfofrpkr");
+        User user = new User("integritest2.0@mailinator.com", "qwerty-21");
         loginPage
                 .openPage()
                 .login(user);
